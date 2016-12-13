@@ -3,7 +3,7 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  height: 100vh;
+  height: 100%;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -47,8 +47,6 @@ body {
 
 .text {
   margin-top: 30px;
-  -webkit-transition: all 200ms ease;
-  transition: all 200ms ease;
   font-family: 'Source Code Pro', sans-serif;
   text-align: center;
 }
