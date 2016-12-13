@@ -34,10 +34,10 @@ body {
   display: block;
   margin-right: auto;
   margin-left: auto;
-  -webkit-filter: blur(5px);
-  filter: blur(5px);
-  -webkit-transition: all 200ms ease;
-  transition: all 200ms ease;
+  -webkit-filter: blur(8px);
+  filter: blur(8px);
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
 }
 
 .center-div:hover {
