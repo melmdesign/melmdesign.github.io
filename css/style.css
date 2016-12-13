@@ -1,0 +1,54 @@
+.main-section {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #f0e3c9;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+body {
+  font-size: 10px;
+}
+
+.melmheading {
+  display: block;
+  margin-top: 0px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+}
+
+.center-div {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-filter: blur(5px);
+  filter: blur(5px);
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+
+.center-div:hover {
+  -webkit-filter: blur(0px);
+  filter: blur(0px);
+}
+
+.text {
+  margin-top: 30px;
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+  font-family: 'Source Code Pro', sans-serif;
+  text-align: center;
+}
